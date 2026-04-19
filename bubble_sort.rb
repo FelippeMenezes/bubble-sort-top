@@ -1,5 +1,5 @@
-def bubble_sort
-
+def bubble_sort(array)
+  p array
 end
 
-bubble_sort
+bubble_sort([4,3,78,2,0,2])
