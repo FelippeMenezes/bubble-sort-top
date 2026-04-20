@@ -15,4 +15,8 @@ def bubble_sort(array)
   array
 end
 
-bubble_sort([4,3,78,2,0,2])
+puts "Enter comma-separated numbers to sort by bubble:"
+numbers_list = gets.chomp.split(",")
+converted_numbers_list = numbers_list.map { |number| number.to_i }
+
+bubble_sort(converted_numbers_list)
