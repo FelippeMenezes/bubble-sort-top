@@ -2,8 +2,9 @@ def bubble_sort(array)
   p array
   p array.length - 1
   (array.length - 1).times do
+    array.each_with_index do | value, index |
 
-
+    end
   end
   p array
 end
