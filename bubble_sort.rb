@@ -1,8 +1,7 @@
 def bubble_sort(array)
   n = array.length
-  (n - 1).times do
-
-    array.each_with_index do | value, index |
+  (n - 1).times do | counter |
+    (n - 1 - counter).times do | index |
       left_number = array[index]
       right_number = array[index + 1]
 
@@ -11,10 +10,9 @@ def bubble_sort(array)
         array[index] = right_number
       end
     end
-    puts counter += 1
   end
   p array
-  return array
+  array
 end
 
 bubble_sort([4,3,78,2,0,2])
