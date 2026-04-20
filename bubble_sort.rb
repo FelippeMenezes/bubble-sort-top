@@ -11,7 +11,7 @@ def bubble_sort(array)
       end
     end
   end
-  p array
+  puts "Your list of numbers sorted using the bubble sort method: #{array}"
   array
 end
 
