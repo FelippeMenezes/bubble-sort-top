@@ -1,7 +1,7 @@
 def bubble_sort(array)
   p array
-  p array.length - 1
-  (array.length - 1).times do
+  n = array.length
+  (n - 1).times do
     array.each_with_index do | value, index |
 
     end
